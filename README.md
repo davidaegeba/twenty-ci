@@ -1,7 +1,8 @@
 HOW TO RUN THIS TEST ON YOUR LOCAL MACHINE
 
 Steps:
-1. Clone od Download the repo from github
+
+1. Clone or Download the repo from github
 
 2. Run bundle install to install all the dependecy gems
 
