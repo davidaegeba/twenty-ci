@@ -1,6 +1,6 @@
-HOW TO RUN THIS TEST ON YOUR LOCAL MACHINE
+#HOW TO RUN THIS TEST ON YOUR LOCAL MACHINE
 
-Steps:
+#Steps:
 
 1. Clone or Download the repo from github
 
@@ -10,15 +10,18 @@ Steps:
 
 4. Then run the test with the script "cucumber"
 
-*Note* 
-
+#Note:
 Make sure you have ruby installed
 
-*Question2*
+#Question2
 
 The framework is using Cucumber, Ruby, Selenium WebDriver, Watir WebDriver and Page Objects
 
-CUCUMBER: 
+#CUCUMBER: 
 
 Is a software tool that computer programmers use for testing other software.
 It runs automated acceptance tests written in a behavior-driven development (BDD) style. Cucumber is written in the Ruby programming language.
+
+#To produce  report run your test with this script:
+ html report = *cucumber --format html -o cucumber.index.html*
+ json report = *cucumber --format json -o cucumber.json*
